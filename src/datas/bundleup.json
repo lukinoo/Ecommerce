@@ -1,0 +1,30 @@
+[
+  {
+    "id": 23,
+    "url": "https://cdn.shopify.com/s/files/1/0598/0572/8790/products/GREEN_2000x3000_111821_1_1080x_756ca562-5b60-4656-b9aa-3de51c3e2679.jpg?v=1645046707",
+    "title": "Green Bundle",
+    "price": 64.95,
+    "quantity": 1
+  },
+  {
+    "id": 24,
+    "url": "https://cdn.shopify.com/s/files/1/0598/0572/8790/products/STANDARD_2000x3000_111821_1_1080x_46f4eefe-6c97-4aab-838a-aee20c4c5849.jpg?v=1645046709&width=360",
+    "title": "Standard Bundle",
+    "price": 64.95,
+    "quantity": 1
+  },
+  {
+    "id": 25,
+    "url": "https://cdn.shopify.com/s/files/1/0598/0572/8790/products/7_DAYSOFTHEWEEKGREENS_2000X2000_092121_1080x_6ba3deb9-a379-405c-b7a2-7df532189789.jpg?v=1645046704&width=493",
+    "title": "Days of the Week Greens",
+    "price": 29.95,
+    "quantity": 1
+  },
+  {
+    "id": 26,
+    "url": "https://cdn.shopify.com/s/files/1/0598/0572/8790/products/6_IMMUNITYKIT_2000X2000_091621_1080x_012403c8-9fa9-4892-bd1c-ac24a1f4ca04.jpg?v=1645046706",
+    "title": "Immunity Kit",
+    "price": 39.95,
+    "quantity": 1
+  }
+]

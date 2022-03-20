@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Lato:wght@300;400&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html::-moz-selection,
+body::-moz-selection,
+div::-moz-selection,
+span::-moz-selection,
+applet::-moz-selection,
+object::-moz-selection,
+iframe::-moz-selection,
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+h5::-moz-selection,
+h6::-moz-selection,
+p::-moz-selection,
+blockquote::-moz-selection,
+pre::-moz-selection,
+a::-moz-selection,
+abbr::-moz-selection,
+acronym::-moz-selection,
+address::-moz-selection,
+big::-moz-selection,
+cite::-moz-selection,
+code::-moz-selection,
+del::-moz-selection,
+dfn::-moz-selection,
+em::-moz-selection,
+img::-moz-selection,
+ins::-moz-selection,
+kbd::-moz-selection,
+q::-moz-selection,
+s::-moz-selection,
+samp::-moz-selection,
+small::-moz-selection,
+strike::-moz-selection,
+strong::-moz-selection,
+sub::-moz-selection,
+sup::-moz-selection,
+tt::-moz-selection,
+var::-moz-selection,
+b::-moz-selection,
+u::-moz-selection,
+i::-moz-selection,
+center::-moz-selection,
+dl::-moz-selection,
+dt::-moz-selection,
+dd::-moz-selection,
+ol::-moz-selection,
+ul::-moz-selection,
+li::-moz-selection,
+fieldset::-moz-selection,
+form::-moz-selection,
+label::-moz-selection,
+legend::-moz-selection,
+table::-moz-selection,
+caption::-moz-selection,
+tbody::-moz-selection,
+tfoot::-moz-selection,
+thead::-moz-selection,
+tr::-moz-selection,
+th::-moz-selection,
+td::-moz-selection,
+article::-moz-selection,
+aside::-moz-selection,
+canvas::-moz-selection,
+details::-moz-selection,
+embed::-moz-selection,
+figure::-moz-selection,
+figcaption::-moz-selection,
+footer::-moz-selection,
+header::-moz-selection,
+hgroup::-moz-selection,
+menu::-moz-selection,
+nav::-moz-selection,
+output::-moz-selection,
+ruby::-moz-selection,
+section::-moz-selection,
+summary::-moz-selection,
+time::-moz-selection,
+mark::-moz-selection,
+audio::-moz-selection,
+video::-moz-selection {
+  background: #ddd;
+}
+
+html::selection,
+body::selection,
+div::selection,
+span::selection,
+applet::selection,
+object::selection,
+iframe::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+blockquote::selection,
+pre::selection,
+a::selection,
+abbr::selection,
+acronym::selection,
+address::selection,
+big::selection,
+cite::selection,
+code::selection,
+del::selection,
+dfn::selection,
+em::selection,
+img::selection,
+ins::selection,
+kbd::selection,
+q::selection,
+s::selection,
+samp::selection,
+small::selection,
+strike::selection,
+strong::selection,
+sub::selection,
+sup::selection,
+tt::selection,
+var::selection,
+b::selection,
+u::selection,
+i::selection,
+center::selection,
+dl::selection,
+dt::selection,
+dd::selection,
+ol::selection,
+ul::selection,
+li::selection,
+fieldset::selection,
+form::selection,
+label::selection,
+legend::selection,
+table::selection,
+caption::selection,
+tbody::selection,
+tfoot::selection,
+thead::selection,
+tr::selection,
+th::selection,
+td::selection,
+article::selection,
+aside::selection,
+canvas::selection,
+details::selection,
+embed::selection,
+figure::selection,
+figcaption::selection,
+footer::selection,
+header::selection,
+hgroup::selection,
+menu::selection,
+nav::selection,
+output::selection,
+ruby::selection,
+section::selection,
+summary::selection,
+time::selection,
+mark::selection,
+audio::selection,
+video::selection {
+  background: #ddd;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #fcfcfc;
+}
+
+body.overflow-h {
+  overflow-y: hidden;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: rgba(220, 220, 220, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #020912;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=main.css.map */
